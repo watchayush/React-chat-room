@@ -1,0 +1,67 @@
+.outerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1d;
+}
+
+.sideBar {
+  width: 20%;
+  height: 100%;
+  background-color: rgba(245, 245, 245, 0.959);
+}
+.title {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+
+  background: #2979ff;
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  width: 100%;
+  border-right: 2px solid blue;
+  color: white;
+  padding-left: 12px;
+}
+.userList {
+  list-style: none;
+  position: relative;
+}
+.roomUser {
+  /* position: absolute; */
+  width: 100%;
+  list-style: none;
+  border-bottom: 0.7px solid rgb(160, 159, 159);
+  height: 35px;
+  left: 7px;
+  margin-right: 2px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 8px;
+  height: 100%;
+  width: 80%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .outerContainer {
+    height: 100%;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+}

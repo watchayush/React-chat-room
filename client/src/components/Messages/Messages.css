@@ -1,0 +1,7 @@
+.messages {
+  padding: 5% 0;
+  overflow: auto;
+  overflow-y: scroll;
+  flex: auto;
+  background-color: whitesmoke;
+}
